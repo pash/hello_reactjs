@@ -12,7 +12,7 @@ References:
 Worth Noting:
 - constructors
 
-# github_cards
+# github cards
 
 References:
 - https://app.pluralsight.com/library/courses/react-js-getting-started
