@@ -8,3 +8,16 @@ References:
 
 References:
 - https://facebook.github.io/react/docs/tutorial.html
+
+Worth Noting:
+- constructors
+
+# github_cards
+
+References:
+- https://app.pluralsight.com/library/courses/react-js-getting-started
+
+Worth Noting:
+- axios usage
+- setting State!
+- spread operator
