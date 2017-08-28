@@ -21,3 +21,17 @@ Worth Noting:
 - axios usage
 - setting State!
 - spread operator
+
+# play nine
+
+References:
+- https://app.pluralsight.com/library/courses/react-js-getting-started
+
+Worth Noting:
+- lodash usage (https://www.npmjs.com/package/lodash)
+- for loops usage
+- onClick usage (passing a reference (selectNumber, unselectNumber) and passing function (checkAnswer))
+- Math#floor, Math#random
+- Array#map, Array#filter, Array#reduce usage
+- class level function (randomNumber)
+- setState with function argument syntax
