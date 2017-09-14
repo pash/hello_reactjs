@@ -9,7 +9,7 @@
 
 # Beginner
 
-## tic tac toe
+## Tic Tac Toe
 
 ### References
 - https://facebook.github.io/react/docs/tutorial.html
@@ -17,7 +17,7 @@
 ### Worth Noting
 - constructors
 
-## github cards
+## Github Cards
 
 ### References
 - https://app.pluralsight.com/library/courses/react-js-getting-started
@@ -27,7 +27,7 @@
 - setting State!
 - spread operator
 
-## play nine
+## Play Nine
 
 ### References
 - https://app.pluralsight.com/library/courses/react-js-getting-started
@@ -43,7 +43,7 @@
 
 # Intermediate
 
-## psadmin (Pluralsight Admin)
+## Pluralsight Admin
 
 ### References
 - https://app.pluralsight.com/library/courses/react-flux-building-applications
@@ -63,7 +63,7 @@
 - toastr usage (for notifications)
 - form hydration via URL (for editing author)
 
-## psadmin_with_flux (PluralsightAdmin)
+## Pluralsight Admin with Flux
 
 ### References
 - https://app.pluralsight.com/library/courses/react-flux-building-applications
