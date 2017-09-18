@@ -50951,7 +50951,7 @@ Dispatcher.register(function(action) {
       // debugger;
       _.remove(_authors, function(author) {
         return action.id === author.id;
-      })
+      });
       AuthorStore.emitChange();
       break;
     default:
