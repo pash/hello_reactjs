@@ -75,6 +75,21 @@
 - lodash usage
 - splice usage (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice; https://www.w3schools.com/jsref/jsref_splice.asp)
 
-### Course
+### Exercise
 - bit.ly/courseapi
 - bit.ly/mockcoursedata
+
+## Pluralsight Admin with Redux
+- redux usage
+- es6 with babel usage
+- react-router usage
+- webpack usage
+- npm scripts usage
+- eslint usage
+- mocha, react test utils and enzyme testing
+- es6 short hand property names usage
+- 3 different ways of dispatching actions (ex: CoursesPage)
+
+## Pluralsight Admin with Redux and Thunk
+- mock api pattern usage
+- thunk usage
