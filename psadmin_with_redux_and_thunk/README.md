@@ -1,3 +1,6 @@
+# To run
+- npm start -s
+
 # Video Notes
 - packages in package.json are described here: https://github.com/coryhouse/pluralsight-redux-starter
 - we're running scripts with babel-node because we're using ES6
