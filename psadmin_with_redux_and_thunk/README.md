@@ -36,3 +36,11 @@
 - Test slowness (using setTimeout to delay responses)
 - Aids testing
 - Point to the real API later (by changing import or toggle config)
+
+# Testing
+- npm run test:watch
+- Mocha (testing framework)
+- Expect (assertion library because Mocha doesn't have it - https://www.npmjs.com/package/expect)
+- Enzyme (helper libary)
+- Enzyme is an abstraction that calls react test utils behind the scenes and uses JSDOM (in-memory DOM) and cheerio (fast jQuery style selectors) as well.
+- jSDOM simulates an actual browser by creating a DOM in memory that we can interact with.
