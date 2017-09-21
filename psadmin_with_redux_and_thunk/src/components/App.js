@@ -1,3 +1,5 @@
+// React Router will be passing child components as props onto our app component, and then they will be composed right here on the page.
+
 import React, {PropTypes} from 'react';
 import Header from './common/Header';
 
