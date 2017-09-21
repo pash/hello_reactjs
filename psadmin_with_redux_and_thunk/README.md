@@ -3,6 +3,9 @@
 - npm run lint (to check linting errors)
 - npm run test:watch (to run tests)
 
+# To run in production
+- npm run build
+
 # Video Notes
 - packages in package.json are described here: https://github.com/coryhouse/pluralsight-redux-starter
 - we're running scripts with babel-node because we're using ES6
@@ -49,6 +52,11 @@
 
 # Production
 - dist (index.html, bundle.js, styles.css and sourcemaps)
+- setup production redux store
+- setup webpack
+- setup html build
+- setup dist server
+- setup npm scripts
 
 # Production Build Process
 - lint and run tests
@@ -56,3 +64,24 @@
 - generate js and css sourcemaps
 - exclude dev-specific concerns
 - build react in production mode
+- 4.8MB -> 121k
+
+# Webpack Production Scripts
+- clean-dist
+- remove-dist (cross platform way to remove dist ie: rm -rf)
+- build:html
+- prebuild (babel-node is used because we're using ES6; needed to transpile down to ES5 so node can parse it even without running latest version of node)
+- build (By convention, prebuild will run before build and postbuild will run after build.)
+- postbuild
+
+# Challenge
+- Author administration (Hint: be sure to add logic you can't delete author who has a course)
+- Delete course
+- Hide empty course list
+- Unsaved changes message
+- Client-side validation
+- Handle 404's (Hint: need to add logic to mapStateToProps)
+- Show # of courses in Header
+- Pagination / Infinite Scrolling
+- Sort course table (A-Z) (Hint: mapStateToProps is where this should be added)
+- Revert abandoned changes

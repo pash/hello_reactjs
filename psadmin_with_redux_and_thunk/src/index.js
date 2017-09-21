@@ -1,5 +1,8 @@
 /* eslint-disable no-console */
 
+// to fix configureStore change linting error: "No default export found in module"
+/* eslint-disable import/default */
+
 console.log('hi');
 
 import 'babel-polyfill'; // some features in es6, babel cannot transpile! ex: Object.assign
