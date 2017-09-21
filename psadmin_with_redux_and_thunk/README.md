@@ -1,5 +1,7 @@
 # To run
 - npm start -s
+- npm run lint (to check linting errors)
+- npm run test:watch (to run tests)
 
 # Video Notes
 - packages in package.json are described here: https://github.com/coryhouse/pluralsight-redux-starter
@@ -44,3 +46,13 @@
 - Enzyme (helper libary)
 - Enzyme is an abstraction that calls react test utils behind the scenes and uses JSDOM (in-memory DOM) and cheerio (fast jQuery style selectors) as well.
 - jSDOM simulates an actual browser by creating a DOM in memory that we can interact with.
+
+# Production
+- dist (index.html, bundle.js, styles.css and sourcemaps)
+
+# Production Build Process
+- lint and run tests
+- bundle and minify js and css
+- generate js and css sourcemaps
+- exclude dev-specific concerns
+- build react in production mode

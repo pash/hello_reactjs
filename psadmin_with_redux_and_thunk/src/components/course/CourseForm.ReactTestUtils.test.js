@@ -27,7 +27,7 @@ describe('CourseForm via React Test Utils', () => {
     // get top level element
     expect(output.type).toBe('form');
     // get first child element
-    let [ h1 ] = output.props.children
+    let [ h1 ] = output.props.children;
     expect(h1.type).toBe('h1');
   });
 

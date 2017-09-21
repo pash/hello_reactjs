@@ -1,3 +1,5 @@
+// reduxImmutableStateInvariant is only for development; causes performance problems; there for develpment warning to tell us if we accidentally mutate state!
+
 import { createStore, applyMiddleware } from 'redux';
 import rootReducer from '../reducers';
 import reduxImmutableStateInvariant from 'redux-immutable-state-invariant';
