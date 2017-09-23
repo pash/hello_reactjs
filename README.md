@@ -93,3 +93,13 @@
 ## Pluralsight Admin with Redux and Thunk
 - mock api pattern usage
 - thunk usage
+
+## Productivity App with Flux and Redux
+
+### References
+- https://app.pluralsight.com/library/courses/flux-redux-mastering
+- https://github.com/danielstern/flux-redux
+
+## Worth Noting
+- localStorage usage
+- redux middleware usage
